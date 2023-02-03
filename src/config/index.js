@@ -1,6 +1,6 @@
 module.exports = {
   "local": {
-    "use_env_variable": "LOCAL_DATABASE_URL"
+    "use_env_variable": "DATABASE_URL"
   },
   "development": {
     "use_env_variable": "DATABASE_URL"

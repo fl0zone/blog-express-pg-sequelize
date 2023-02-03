@@ -4,9 +4,9 @@ services:
     image: postgres:14
     restart: always
     environment:
-      POSTGRES_USER: ${PGUSER}
-      POSTGRES_PASSWORD: ${PGPASSWORD}
-      POSTGRES_DB: ${PGDATABASE}
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: my-startup-db
     volumes:
       - postgres-data:/var/lib/postgresql/data
     ports:
